@@ -9,11 +9,11 @@ GN Craft顾名思义就是百胶带的郭楠玩的Minecraft！不是郭楠不准
 
 # 如何玩GN Craft
 
-首先要有一个java环境不用多说了吧，推荐 `java8` 运行起来比较稳定。
+首先要有一个java环境不用多说了吧，推荐 `java8` 运行起来比较稳定。群文件里会传一个windows版本的jre8（非windows再说）
 
 ## 从哪里获得mods
 
-在群文件里（省点服务器带宽钱吧5555），为了方便，服务器的mod采用增量更新的方式。名为 `GNMCv1.x.zip` 或 `GNCraftv1.x.zip` 的为某一版本添加的mod（里面会附带一个changelog），名为 `GNCraftFullv1.x.zip` 的是某一版本的全量mod包（如果没有就是我还没传捏）。
+在GN Craft群文件里（省点服务器带宽钱吧5555），为了方便，服务器的mod采用增量更新的方式。名为 `GNMCv1.x.zip` 或 `GNCraftv1.x.zip` 的为某一版本添加的mod（里面会附带一个changelog），名为 `GNCraftFullv1.x.zip` 的是某一版本的全量mod包。再次为了方便，我会传一个真·全量包，解压点点就可以用的那种。
 
 ## 正版用户
 对于正版用户，请前往[minecraft forge](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.16.5.html)官方网站下载对应1.16.5的forge（如36.2.35）版本，选择installer，你会得到一个jar文件。双击点开（如果点不开说明没有java捏）默认就是**install client**并且选择的是正版minecraft的所在位置（即 **%APPDATA% /.minecraft** ），安装即可。
@@ -46,7 +46,7 @@ GN Craft顾名思义就是百胶带的郭楠玩的Minecraft！不是郭楠不准
 
 # 服务器开支
 
-租了一个 `2核3.1GHz` CPU、`8G` 内存、带宽按流量计费峰值 `25Mbps` 的阿里云。CPU每月一口价 `200` 元，带宽三天用了 `20` 元。这个带宽其实也能接受，10MBps包月就要470大洋惹，目前玩的人不多，后续如果玩的人多了再评估。（如果有大佬了解更便宜的方案请联系我）
+租了一个 `2核3.1GHz` CPU、`8G` 内存、带宽按流量计费峰值 `25Mbps` 的阿里云。CPU每月一口价 `200` 元，带宽14天用了 `50` 。（如果有大佬了解更便宜的方案请联系我）
 
 ![aliyun](assets/aliyun.png)
 
@@ -63,6 +63,20 @@ GN Craft顾名思义就是百胶带的郭楠玩的Minecraft！不是郭楠不准
 ---
 
 # Changelog
+
+v1.3b
++ `superxxxconfiglib/corelib` 电梯的依赖包
++ `AutoRegLib` 又是一个依赖包
++ `Quark` 提供很多易用性上的更新
++ `movingelevators` 电梯mod
+
+============
+
+v1.3a
+- `lotr lotrqome` mod还没更新完，太占运行资源了先删掉
+
+============
+
 v1.3
 + `CodeChickenLib` 区块加载器的lib
 + `ChickenChunks` 区块加载器
@@ -71,7 +85,7 @@ v1.3
 + `Cucmber` 加了一些作物
 + `Mystical Agriculture` 神秘农业，看上去很厉害
 + `Mystical Agradditions` 神秘农业附属包，与匠魂联动
-- `inventory sorter` 如果出现"mod channel mismatch"，尝试删除这个mod
+- `inventory sorter` 删除这个mod
 本地测试给4G可以顺利运行
 
 =============
