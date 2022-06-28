@@ -7,6 +7,18 @@
 # 什么是BJTU GN Craft
 GN Craft顾名思义就是百胶带的郭楠玩的Minecraft！不是郭楠不准玩（？）当前服务器运行的版本为1.16.5，部署在石家庄地区的阿里云（主要是因为最便宜）。
 
+## 彰显GN风采
+
+![1](assets/1.png)
+
+![2](assets/2.png)
+
+![3](assets/3.png)
+
+![4](assets/4.png)
+
+![5](assets/5.png)
+
 # 如何玩GN Craft
 
 首先要有一个java环境不用多说了吧，推荐 `java8` 运行起来比较稳定。群文件里会传一个windows版本的jre8（非windows再说）
